@@ -9,11 +9,31 @@
 /* Begin PBXBuildFile section */
 		42B653381BB7F82700C170B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B653371BB7F82700C170B1 /* AppDelegate.swift */; };
 		42B6533B1BB7F82700C170B1 /* AVFoundationCustomization.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42B653391BB7F82700C170B1 /* AVFoundationCustomization.xcdatamodeld */; };
-		42B6533D1BB7F82700C170B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6533C1BB7F82700C170B1 /* ViewController.swift */; };
 		42B653401BB7F82700C170B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B6533E1BB7F82700C170B1 /* Main.storyboard */; };
 		42B653421BB7F82700C170B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B653411BB7F82700C170B1 /* Images.xcassets */; };
 		42B653451BB7F82700C170B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B653431BB7F82700C170B1 /* LaunchScreen.xib */; };
 		42B653511BB7F82800C170B1 /* AVFoundationCustomizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B653501BB7F82800C170B1 /* AVFoundationCustomizationTests.swift */; };
+		42B653611BB7F88000C170B1 /* SwiftVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B653601BB7F88000C170B1 /* SwiftVC1.swift */; };
+		42B653661BB7F8D100C170B1 /* THPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B653651BB7F8D100C170B1 /* THPreviewView.m */; };
+		42B653691BB7F8F500C170B1 /* THCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B653681BB7F8F500C170B1 /* THCameraController.m */; };
+		42B653751BB7F93600C170B1 /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B6536B1BB7F93600C170B1 /* glow.png */; };
+		42B653761BB7F93600C170B1 /* glowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B6536C1BB7F93600C170B1 /* glowWhite.png */; };
+		42B653771BB7F93600C170B1 /* VideoOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6536D1BB7F93600C170B1 /* VideoOverlay.swift */; };
+		42B653781BB7F93600C170B1 /* Miscellaneous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6536E1BB7F93600C170B1 /* Miscellaneous.swift */; };
+		42B653791BB7F93600C170B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6536F1BB7F93600C170B1 /* Constants.swift */; };
+		42B6537A1BB7F93600C170B1 /* MagicalSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42B653701BB7F93600C170B1 /* MagicalSound1.mp3 */; };
+		42B6537B1BB7F93600C170B1 /* Fairy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B653711BB7F93600C170B1 /* Fairy.swift */; };
+		42B6537C1BB7F93600C170B1 /* TFFairyDust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B653721BB7F93600C170B1 /* TFFairyDust.swift */; };
+		42B6537D1BB7F93600C170B1 /* TFToothFairyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B653731BB7F93600C170B1 /* TFToothFairyPaths.swift */; };
+		42B6537E1BB7F93600C170B1 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B653741BB7F93600C170B1 /* Functions.swift */; };
+		42B653811BB7F9A300C170B1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B653801BB7F9A300C170B1 /* CoreMedia.framework */; };
+		42B653831BB7F9AB00C170B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B653821BB7F9AB00C170B1 /* AVFoundation.framework */; };
+		42B653851BB7F9B100C170B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B653841BB7F9B100C170B1 /* Foundation.framework */; };
+		42B653871BB7F9B800C170B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B653861BB7F9B800C170B1 /* CoreGraphics.framework */; };
+		42B653891BB7F9C000C170B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B653881BB7F9C000C170B1 /* UIKit.framework */; };
+		42B653911BB7FA1A00C170B1 /* NSFileManager+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6538C1BB7FA1A00C170B1 /* NSFileManager+THAdditions.m */; };
+		42B653921BB7FA1A00C170B1 /* NSTimer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6538E1BB7FA1A00C170B1 /* NSTimer+Additions.m */; };
+		42B653931BB7FA1A00C170B1 /* UIView+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B653901BB7FA1A00C170B1 /* UIView+THAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +51,39 @@
 		42B653361BB7F82700C170B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42B653371BB7F82700C170B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42B6533A1BB7F82700C170B1 /* AVFoundationCustomization.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AVFoundationCustomization.xcdatamodel; sourceTree = "<group>"; };
-		42B6533C1BB7F82700C170B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42B6533F1BB7F82700C170B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42B653411BB7F82700C170B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42B653441BB7F82700C170B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		42B6534A1BB7F82700C170B1 /* AVFoundationCustomizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFoundationCustomizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B6534F1BB7F82800C170B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42B653501BB7F82800C170B1 /* AVFoundationCustomizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationCustomizationTests.swift; sourceTree = "<group>"; };
+		42B653601BB7F88000C170B1 /* SwiftVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftVC1.swift; sourceTree = "<group>"; };
+		42B653631BB7F8D000C170B1 /* AVFoundationCustomization-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVFoundationCustomization-Bridging-Header.h"; sourceTree = "<group>"; };
+		42B653641BB7F8D100C170B1 /* THPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPreviewView.h; sourceTree = "<group>"; };
+		42B653651BB7F8D100C170B1 /* THPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPreviewView.m; sourceTree = "<group>"; };
+		42B653671BB7F8F500C170B1 /* THCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCameraController.h; sourceTree = "<group>"; };
+		42B653681BB7F8F500C170B1 /* THCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCameraController.m; sourceTree = "<group>"; };
+		42B6536B1BB7F93600C170B1 /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glow.png; sourceTree = "<group>"; };
+		42B6536C1BB7F93600C170B1 /* glowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glowWhite.png; sourceTree = "<group>"; };
+		42B6536D1BB7F93600C170B1 /* VideoOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoOverlay.swift; sourceTree = "<group>"; };
+		42B6536E1BB7F93600C170B1 /* Miscellaneous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Miscellaneous.swift; sourceTree = "<group>"; };
+		42B6536F1BB7F93600C170B1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		42B653701BB7F93600C170B1 /* MagicalSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MagicalSound1.mp3; sourceTree = "<group>"; };
+		42B653711BB7F93600C170B1 /* Fairy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fairy.swift; sourceTree = "<group>"; };
+		42B653721BB7F93600C170B1 /* TFFairyDust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFFairyDust.swift; sourceTree = "<group>"; };
+		42B653731BB7F93600C170B1 /* TFToothFairyPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFToothFairyPaths.swift; sourceTree = "<group>"; };
+		42B653741BB7F93600C170B1 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		42B653801BB7F9A300C170B1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		42B653821BB7F9AB00C170B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		42B653841BB7F9B100C170B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42B653861BB7F9B800C170B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42B653881BB7F9C000C170B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42B6538B1BB7FA1A00C170B1 /* NSFileManager+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+THAdditions.h"; sourceTree = "<group>"; };
+		42B6538C1BB7FA1A00C170B1 /* NSFileManager+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+THAdditions.m"; sourceTree = "<group>"; };
+		42B6538D1BB7FA1A00C170B1 /* NSTimer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Additions.h"; sourceTree = "<group>"; };
+		42B6538E1BB7FA1A00C170B1 /* NSTimer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Additions.m"; sourceTree = "<group>"; };
+		42B6538F1BB7FA1A00C170B1 /* UIView+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THAdditions.h"; sourceTree = "<group>"; };
+		42B653901BB7FA1A00C170B1 /* UIView+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B653891BB7F9C000C170B1 /* UIKit.framework in Frameworks */,
+				42B653871BB7F9B800C170B1 /* CoreGraphics.framework in Frameworks */,
+				42B653851BB7F9B100C170B1 /* Foundation.framework in Frameworks */,
+				42B653831BB7F9AB00C170B1 /* AVFoundation.framework in Frameworks */,
+				42B653811BB7F9A300C170B1 /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,11 +130,14 @@
 		42B653341BB7F82700C170B1 /* AVFoundationCustomization */ = {
 			isa = PBXGroup;
 			children = (
+				42B6537F1BB7F98800C170B1 /* Frameworks */,
+				42B653621BB7F8B200C170B1 /* AVFoundationClasses */,
+				42B6535F1BB7F87100C170B1 /* Swift */,
 				42B653371BB7F82700C170B1 /* AppDelegate.swift */,
-				42B6533C1BB7F82700C170B1 /* ViewController.swift */,
 				42B6533E1BB7F82700C170B1 /* Main.storyboard */,
 				42B653411BB7F82700C170B1 /* Images.xcassets */,
 				42B653431BB7F82700C170B1 /* LaunchScreen.xib */,
+				42B653631BB7F8D000C170B1 /* AVFoundationCustomization-Bridging-Header.h */,
 				42B653391BB7F82700C170B1 /* AVFoundationCustomization.xcdatamodeld */,
 				42B653351BB7F82700C170B1 /* Supporting Files */,
 			);
@@ -113,6 +167,69 @@
 				42B6534F1BB7F82800C170B1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42B6535F1BB7F87100C170B1 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				42B6536A1BB7F91D00C170B1 /* videoOverlay animation */,
+				42B653601BB7F88000C170B1 /* SwiftVC1.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		42B653621BB7F8B200C170B1 /* AVFoundationClasses */ = {
+			isa = PBXGroup;
+			children = (
+				42B6538A1BB7FA0C00C170B1 /* Categories */,
+				42B653641BB7F8D100C170B1 /* THPreviewView.h */,
+				42B653651BB7F8D100C170B1 /* THPreviewView.m */,
+				42B653671BB7F8F500C170B1 /* THCameraController.h */,
+				42B653681BB7F8F500C170B1 /* THCameraController.m */,
+			);
+			name = AVFoundationClasses;
+			sourceTree = "<group>";
+		};
+		42B6536A1BB7F91D00C170B1 /* videoOverlay animation */ = {
+			isa = PBXGroup;
+			children = (
+				42B6536B1BB7F93600C170B1 /* glow.png */,
+				42B6536C1BB7F93600C170B1 /* glowWhite.png */,
+				42B6536D1BB7F93600C170B1 /* VideoOverlay.swift */,
+				42B6536E1BB7F93600C170B1 /* Miscellaneous.swift */,
+				42B6536F1BB7F93600C170B1 /* Constants.swift */,
+				42B653701BB7F93600C170B1 /* MagicalSound1.mp3 */,
+				42B653711BB7F93600C170B1 /* Fairy.swift */,
+				42B653721BB7F93600C170B1 /* TFFairyDust.swift */,
+				42B653731BB7F93600C170B1 /* TFToothFairyPaths.swift */,
+				42B653741BB7F93600C170B1 /* Functions.swift */,
+			);
+			name = "videoOverlay animation";
+			sourceTree = "<group>";
+		};
+		42B6537F1BB7F98800C170B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42B653881BB7F9C000C170B1 /* UIKit.framework */,
+				42B653861BB7F9B800C170B1 /* CoreGraphics.framework */,
+				42B653841BB7F9B100C170B1 /* Foundation.framework */,
+				42B653821BB7F9AB00C170B1 /* AVFoundation.framework */,
+				42B653801BB7F9A300C170B1 /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42B6538A1BB7FA0C00C170B1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				42B6538B1BB7FA1A00C170B1 /* NSFileManager+THAdditions.h */,
+				42B6538C1BB7FA1A00C170B1 /* NSFileManager+THAdditions.m */,
+				42B6538D1BB7FA1A00C170B1 /* NSTimer+Additions.h */,
+				42B6538E1BB7FA1A00C170B1 /* NSTimer+Additions.m */,
+				42B6538F1BB7FA1A00C170B1 /* UIView+THAdditions.h */,
+				42B653901BB7FA1A00C170B1 /* UIView+THAdditions.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +312,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B653751BB7F93600C170B1 /* glow.png in Resources */,
+				42B6537A1BB7F93600C170B1 /* MagicalSound1.mp3 in Resources */,
+				42B653761BB7F93600C170B1 /* glowWhite.png in Resources */,
 				42B653401BB7F82700C170B1 /* Main.storyboard in Resources */,
 				42B653451BB7F82700C170B1 /* LaunchScreen.xib in Resources */,
 				42B653421BB7F82700C170B1 /* Images.xcassets in Resources */,
@@ -215,9 +335,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B6533D1BB7F82700C170B1 /* ViewController.swift in Sources */,
+				42B653931BB7FA1A00C170B1 /* UIView+THAdditions.m in Sources */,
+				42B653771BB7F93600C170B1 /* VideoOverlay.swift in Sources */,
+				42B653781BB7F93600C170B1 /* Miscellaneous.swift in Sources */,
+				42B6537B1BB7F93600C170B1 /* Fairy.swift in Sources */,
+				42B6537C1BB7F93600C170B1 /* TFFairyDust.swift in Sources */,
+				42B653691BB7F8F500C170B1 /* THCameraController.m in Sources */,
+				42B653611BB7F88000C170B1 /* SwiftVC1.swift in Sources */,
+				42B653921BB7FA1A00C170B1 /* NSTimer+Additions.m in Sources */,
 				42B653381BB7F82700C170B1 /* AppDelegate.swift in Sources */,
+				42B653911BB7FA1A00C170B1 /* NSFileManager+THAdditions.m in Sources */,
 				42B6533B1BB7F82700C170B1 /* AVFoundationCustomization.xcdatamodeld in Sources */,
+				42B6537D1BB7F93600C170B1 /* TFToothFairyPaths.swift in Sources */,
+				42B653661BB7F8D100C170B1 /* THPreviewView.m in Sources */,
+				42B653791BB7F93600C170B1 /* Constants.swift in Sources */,
+				42B6537E1BB7F93600C170B1 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,9 +476,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AVFoundationCustomization/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVFoundationCustomization/AVFoundationCustomization-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -354,9 +491,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AVFoundationCustomization/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVFoundationCustomization/AVFoundationCustomization-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,6 +554,7 @@
 				42B653561BB7F82800C170B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B653571BB7F82800C170B1 /* Build configuration list for PBXNativeTarget "AVFoundationCustomizationTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +563,7 @@
 				42B653591BB7F82800C170B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
